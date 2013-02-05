@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="top"
+    tools:context=".MainActivity" >
+
+      <TextView
+          android:id="@+id/txtResult"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:text="time"
+          android:textSize="@dimen/time" />
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="640dp"
+          android:layout_height="175dp"
+          android:src="@drawable/image1" />
+
+      <Button
+          android:id="@+id/choice2"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true" />
+
+      <Button
+          android:id="@+id/choice1"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true" />
+
+      <Button
+          android:id="@+id/choice3"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/choice2"
+          android:layout_centerHorizontal="true" />
+
+      <TextView
+          android:id="@+id/txtscore"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:text="score"
+          android:textSize="30sp" />
+
+      <TextView
+          android:id="@+id/booLean"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/txtResult"
+          android:layout_marginRight="48dp"
+          android:layout_marginTop="38dp" 
+          android:textSize="60sp" />
+
+</RelativeLayout>
